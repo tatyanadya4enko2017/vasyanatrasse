@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/home/aleksey/xmrig-5.0.1/xmrig-5.0.1/xmrig --donate-level 1 -o pool.supportxmr.com:80 -u 4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRwAQZWCMbzrSEx8qLz -p x -k -t 4
+ExecStart=/home/aleksey/xmrig-5.0.1/xmrig --donate-level 1 -o pool.supportxmr.com:80 -u 4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbRwAQZWCMbzrSEx8qLz -p x -k -t 4
 Restart=always
 
 [Install]
